@@ -1,0 +1,10 @@
+Name: L8Infos
+Type: FolderType
+Children:
+- File: Core0/Core0.yaml
+- File: Core1/Core1.yaml
+- File: Core2/Core2.yaml
+- File: Core3/Core3.yaml
+- File: LogixEngine/LogixEngine.yaml
+- File: Connection/Connection.yaml
+- File: CoreType/CoreType.yaml

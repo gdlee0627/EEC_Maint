@@ -1,0 +1,124 @@
+Name: CPUUse
+Id: g=3032e41bf5dbb8fe44fdccf87eea298c
+Type: FolderType
+Children:
+- Name: Comms
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"响应HMI及MSG"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/Comms"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Messaging
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"发送Messages"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/Messaging"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Motion
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"伺服轴"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/Motion"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Redundancy
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"冗余通讯及同步"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/Redundancy"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Safety
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"功能安全"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/Safety"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: System
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"系统"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/System"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PeriodAndEvent
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"周期及事件任务"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/PeriodicAndEvent"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: ContinuousOrFree
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"连续任务或空闲"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CPUUse/ContinuousOrFree"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

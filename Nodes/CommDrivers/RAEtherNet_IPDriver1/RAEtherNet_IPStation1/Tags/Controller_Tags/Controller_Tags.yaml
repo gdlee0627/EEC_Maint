@@ -1,0 +1,1224 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: CataLog_Number
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "CataLog_Number"
+- Name: ControllerName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ControllerName"
+- Name: is_L7x
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "is_L7x"
+- Name: is_L8x
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "is_L8x"
+- Name: raP_Dvc_LgxCPU_Out
+  Type: raP_UDT_Dvc_LgxCPU_5x80_Out
+  DataType: raP_UDT_Dvc_LgxCPU_5x80_Out
+  Children:
+  - Name: ConnUse
+    Type: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
+    DataType: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
+    Children:
+    - Name: ConsAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ConsAllow"
+    - Name: ConsCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ConsCurr"
+    - Name: ConsHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ConsHiWater"
+    - Name: IncomCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.IncomCurr"
+    - Name: IncomHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.IncomHiWater"
+    - Name: IOAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.IOAllow"
+    - Name: IOCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.IOCurr"
+    - Name: IOHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.IOHiWater"
+    - Name: MCacheAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.MCacheAllow"
+    - Name: MCacheCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.MCacheCurr"
+    - Name: MCacheHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.MCacheHiWater"
+    - Name: MSGCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.MSGCurr"
+    - Name: MSGHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.MSGHiWater"
+    - Name: ProdAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ProdAllow"
+    - Name: ProdCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ProdCurr"
+    - Name: ProdHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.ProdHiWater"
+    - Name: TotalAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.TotalAllow"
+    - Name: TotalCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.TotalCurr"
+    - Name: TotalHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.TotalHiWater"
+    - Name: UCBsAllow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.UCBsAllow"
+    - Name: UCBsCurr
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.UCBsCurr"
+    - Name: UCBsHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.ConnUse.UCBsHiWater"
+  - Name: CoreUse
+    Type: raP_UDT_Dvc_LgxCPU_5x80_CoreUse
+    DataType: raP_UDT_Dvc_LgxCPU_5x80_CoreUse
+    Children:
+    - Name: Core0Pct
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core0Pct"
+    - Name: Core0Type
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core0Type"
+    - Name: Core1Pct
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core1Pct"
+    - Name: Core1Type
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core1Type"
+    - Name: Core2Pct
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core2Pct"
+    - Name: Core2Type
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core2Type"
+    - Name: Core3Pct
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core3Pct"
+    - Name: Core3Type
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CoreUse.Core3Type"
+  - Name: CtrlUse
+    Type: raP_UDT_Dvc_LgxCPU_5x80_TaskUse
+    DataType: raP_UDT_Dvc_LgxCPU_5x80_TaskUse
+    Children:
+    - Name: Fault
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CtrlUse.Fault"
+    - Name: Motion
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CtrlUse.Motion"
+    - Name: System
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CtrlUse.System"
+    - Name: Unused
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CtrlUse.Unused"
+    - Name: User
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.CtrlUse.User"
+  - Name: ForceStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.ForceStatus"
+  - Name: Identity
+    Type: raP_UDT_Dvc_LgxCPU_5x80_Identity
+    DataType: raP_UDT_Dvc_LgxCPU_5x80_Identity
+    Children:
+    - Name: Major
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.Major"
+    - Name: Minor
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.Minor"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [33]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.Name"
+    - Name: ProductCode
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.ProductCode"
+    - Name: ProductType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.ProductType"
+    - Name: Serial
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.Serial"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.Status"
+    - Name: VendorID
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.Identity.VendorID"
+  - Name: IOLEDStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.IOLEDStatus"
+  - Name: MinorFaultBatt
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.MinorFaultBatt"
+  - Name: MinorFaultCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.MinorFaultCount"
+  - Name: MinorFaultPort
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.MinorFaultPort"
+  - Name: MinorFaultProg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.MinorFaultProg"
+  - Name: MinorFaultTask
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raP_Dvc_LgxCPU_Out.MinorFaultTask"
+  - Name: TrendUse
+    Type: raP_UDT_Dvc_LgxCPU_5x80_TrendUse
+    DataType: raP_UDT_Dvc_LgxCPU_5x80_TrendUse
+    Children:
+    - Name: MaxTrendInstance
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.TrendUse.MaxTrendInstance"
+    - Name: NumTrendInstances
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.TrendUse.NumTrendInstances"
+    - Name: TrendHighWater
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raP_Dvc_LgxCPU_Out.TrendUse.TrendHighWater"
+- Name: L_CPU_Out
+  Type: L_CPU_Out
+  DataType: L_CPU_Out
+  Children:
+  - Name: CommUse
+    Type: L_CPU_CommUse
+    DataType: L_CPU_CommUse
+    Children:
+    - Name: MaxTrendInstance
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CommUse.MaxTrendInstance"
+    - Name: NumTrendInstances
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CommUse.NumTrendInstances"
+    - Name: RespCPUAct
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CommUse.RespCPUAct"
+    - Name: RespCPUAvail
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CommUse.RespCPUAvail"
+    - Name: TrendHighWater
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CommUse.TrendHighWater"
+  - Name: ConnUse
+    Type: L_CPU_ConnUse
+    DataType: L_CPU_ConnUse
+    Children:
+    - Name: ConsAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ConsAllow"
+    - Name: ConsCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ConsCurr"
+    - Name: ConsHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ConsHiWater"
+    - Name: IncomCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.IncomCurr"
+    - Name: IncomHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.IncomHiWater"
+    - Name: IOAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.IOAllow"
+    - Name: IOCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.IOCurr"
+    - Name: IOHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.IOHiWater"
+    - Name: MCacheAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.MCacheAllow"
+    - Name: MCacheCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.MCacheCurr"
+    - Name: MCacheHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.MCacheHiWater"
+    - Name: MSGCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.MSGCurr"
+    - Name: MSGHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.MSGHiWater"
+    - Name: ProdAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ProdAllow"
+    - Name: ProdCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ProdCurr"
+    - Name: ProdHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.ProdHiWater"
+    - Name: TotalAllow
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.TotalAllow"
+    - Name: TotalCurr
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.TotalCurr"
+    - Name: TotalHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.TotalHiWater"
+    - Name: UCBsAllow
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.UCBsAllow"
+    - Name: UCBsCurr
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.UCBsCurr"
+    - Name: UCBsHiWater
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.ConnUse.UCBsHiWater"
+  - Name: CPUUse
+    Type: L_CPU_CPUUse
+    DataType: L_CPU_CPUUse
+    Children:
+    - Name: Comms
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.Comms"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+      - Name: ArrayUpdateMode
+        Type: BaseDataVariableType
+        DataType: TagArrayUpdateMode
+        Value: 0
+    - Name: ContinuousOrFree
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.ContinuousOrFree"
+    - Name: Messaging
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.Messaging"
+    - Name: Motion
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.Motion"
+    - Name: PeriodicAndEvent
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.PeriodicAndEvent"
+    - Name: Redundancy
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.Redundancy"
+    - Name: Safety
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.Safety"
+    - Name: System
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.CPUUse.System"
+  - Name: ForceStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.ForceStatus"
+  - Name: Identity
+    Type: L_CPU_Identity
+    DataType: L_CPU_Identity
+    Children:
+    - Name: Major
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.Major"
+    - Name: Minor
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.Minor"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [33]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.Name"
+    - Name: ProductCode
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.ProductCode"
+    - Name: ProductType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.ProductType"
+    - Name: Serial
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.Serial"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.Status"
+    - Name: VendorID
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.Identity.VendorID"
+  - Name: IOLEDStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.IOLEDStatus"
+  - Name: MemUse
+    Type: L_CPU_MemUse
+    DataType: L_CPU_MemUse
+    Children:
+    - Name: FreeDataLogic
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.FreeDataLogic"
+    - Name: FreeGen
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.FreeGen"
+    - Name: FreeIO
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.FreeIO"
+    - Name: FreeSafety
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.FreeSafety"
+    - Name: MaxBlockDataLogic
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MaxBlockDataLogic"
+    - Name: MaxBlockGen
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MaxBlockGen"
+    - Name: MaxBlockIO
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MaxBlockIO"
+    - Name: MaxBlockSafety
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MaxBlockSafety"
+    - Name: MinDataLogic
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MinDataLogic"
+    - Name: MinGen
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MinGen"
+    - Name: MinIO
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MinIO"
+    - Name: MinSafety
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.MinSafety"
+    - Name: TotalDataLogic
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.TotalDataLogic"
+    - Name: TotalGen
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.TotalGen"
+    - Name: TotalIO
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.TotalIO"
+    - Name: TotalSafety
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L_CPU_Out.MemUse.TotalSafety"
+  - Name: MinorFaultBatt
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.MinorFaultBatt"
+  - Name: MinorFaultCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.MinorFaultCount"
+  - Name: MinorFaultPort
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.MinorFaultPort"
+  - Name: MinorFaultProg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.MinorFaultProg"
+  - Name: MinorFaultTask
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.MinorFaultTask"
+  - Name: TimeSlice
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L_CPU_Out.TimeSlice"
+- Name: Firmware
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Firmware"
+- Name: Core0Idle
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Core0Idle"
+- Name: Core1Idle
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Core1Idle"
+- Name: Core2Idle
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Core2Idle"
+- Name: Core3Idle
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Core3Idle"

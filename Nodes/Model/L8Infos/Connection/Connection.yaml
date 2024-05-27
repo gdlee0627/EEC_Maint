@@ -1,0 +1,110 @@
+Name: Connection
+Id: g=6900faf14e1fe930afcae5b95c0d4949
+Type: FolderType
+Children:
+- Name: IOCurr
+  Id: g=78179d5438d139bb7b5b14965eec77aa
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"IO连接"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/IOCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: ProdCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"生产者连接"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/ProdCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: ConsCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"消费者连接"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/ConsCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: MSGCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"MSG连接"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/MSGCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: IncomCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"传入连接"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/IncomCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: UCBsCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"非连接缓冲"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/UCBsCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: MCacheCurr
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en-US","Text":"缓存条目"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/ConnUse/MCacheCurr"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

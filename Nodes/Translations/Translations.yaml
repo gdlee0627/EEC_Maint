@@ -1,0 +1,78 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [63,3],
+    "Body": [
+     "","en-US","zh-CN",
+     "UserManagement","USER MANAGEMENT","",
+     "Login","Login","登录",
+     "Description","Description","",
+     "ModifyUserPermissions","Modify Users permissions","",
+     "CredentialsReminder","Credentials reminder","",
+     "Engineer","Engineer","",
+     "Current locales settings","Current locales settings","",
+     "LoginFormExample","Login form example","",
+     "Permissions","Permissions","",
+     "Credentials","Credentials","",
+     "Locale Settings","Locale Settings","",
+     "AdminSwitch","Admin Switch","",
+     "Language: {0}","Language: {0}","",
+     "EngineerSwitch","Engineer Switch","",
+     "OperatorSwitch","Operator Switch","",
+     "US customary measurement system","US customary measurement system","",
+     "Type","Type","",
+     "Username","Username","",
+     "British imperial units","British imperial units","",
+     "Password","Password","密码",
+     "Operator","Operator","",
+     "User1","User1","",
+     "User2","User2","",
+     "Admin","Admin","",
+     "User3","User3","",
+     "LocalID: {0}","Local ID: {0}","",
+     "Measurement System: {0}","Measurement System: {0}","",
+     "International system of units","International system of units","",
+     "EmptyUserList","No users in list","",
+     "Name","Name","",
+     "Groups","Groups","",
+     "Create","Create","",
+     "Delete","Delete","",
+     "Apply","Apply","",
+     "Cancel","Cancel","",
+     "Locale:","Locale:","",
+     "PasswordChangedTooRecently","Password changed too recently","",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","",
+     "UnableToGetUsers","Unable to get users","",
+     "UserNotFound","User not found","",
+     "PasswordAlreadyUsed","Password already used in the past","",
+     "PasswordTooShort","Password too short","",
+     "UnsupportedOperation","Unsupported operation","",
+     "ChangesAppliedSuccessfully","Changes applied successfully","",
+     "UsernameAlreadyExists","Username already exists","",
+     "Old password","Old password","旧密码",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","操作不受支持",
+     "New password","New password","新密码",
+     "Confirm password","Confirm password","确认密码",
+     "Change password","Change password","更改密码",
+     "Current User:","Current User:","当前用户:",
+     "Logout","Logout","注销",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","密码已过期。\n请输入新密码。",
+     "LoginFormLoginSuccessful","Login successful","登录成功",
+     "LoginFormPasswordExpired","Password expired","密码已过期",
+     "LoginFormAuthenticationFailed","Authentication failed","身份验证失败",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","旧密码错误",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","密码已使用",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","密码最近刚改过",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","密码过短",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","密码不匹配",
+     "LoginChangePasswordFormUserNotFound","User not found","未找到用户"
+    ]
+   }

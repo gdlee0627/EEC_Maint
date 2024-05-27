@@ -1,0 +1,123 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: admin
+  Id: g=a52cdc656f5f559f394ac53dbc853959
+  Type: UserType
+  Children:
+  - Name: Language
+    Id: g=e9e77ab0b659517f77615c71c5b319ba
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: LocaleId
+    Id: g=0d4a07984108f4eba070ad98480ae470
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b35b33d50ed1770a80719ea2ea3a0793
+  - Class: Reference
+    Type: HasRole
+    Target: g=b6c90d9a4c2784009e724cb2084e2c1e
+  - Name: MeasurementSystem
+    Id: g=955c9da3e233711ea303fa69c1892d89
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Password
+    Id: g=abdd68858ff42aeebba0bd798e5ddf41
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=c83d70e67efa1f7b9481d575dcc5cd9f
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [212,46,1,137,43,166,59,157,138,12,84,70,135,61,223,49,152,147,59,72,94,79,182,215,239,55,204,74,225,174,62,36],
+         "Salt": [79,231,87,126,33,243,153,206,42,205,50,239,89,24,223,33,19,7,194,56,173,89,144,172,244,110,129,13,175,206,161,237]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=b1cc88262024546017e7e1e9ba3ff10a
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-05-27T07:16:13.2799401"
+    - Name: History
+      Id: g=ce54320dc315c99fa7887977bb36b81a
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[212,46,1,137,43,166,59,157,138,12,84,70,135,61,223,49,152,147,59,72,94,79,182,215,239,55,204,74,225,174,62,36],"Salt":[79,231,87,126,33,243,153,206,42,205,50,239,89,24,223,33,19,7,194,56,173,89,144,172,244,110,129,13,175,206,161,237]}}]
+- Name: engineer
+  Id: g=e6950a8c10472b9b39e67010b68679bf
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=1b040297a87e5fa0ca9120e2bfff9a8d
+  - Name: LocaleId
+    Id: g=2ca1aa1c1644b84c3c11b4e819cb2ae5
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: Language
+    Id: g=71ac0e30f60afd94dc952ec2af4283a1
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: MeasurementSystem
+    Id: g=80e563a125d705bf0a544f278e74de5b
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+- Name: operator
+  Id: g=d273bba6d995fc6e1368847e841e8a66
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=184c9148cb878ac4aee4e9c44589f2c2
+  - Class: Reference
+    Type: HasRole
+    Target: g=6732eb321b320b87b7568516dbfb9c26
+  - Name: LocaleId
+    Id: g=caa9addea026f2dd9588ad0f13892bfd
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: Language
+    Id: g=37402056e745fdf4eabe5f2612c3f1ce
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: MeasurementSystem
+    Id: g=509fa3b608bbe43e4de7478234975a92
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1

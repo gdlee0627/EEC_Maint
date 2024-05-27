@@ -1,0 +1,34 @@
+Name: CommUse
+Id: g=7d8147161e42e31a85543cfbc4a536cc
+Type: FolderType
+Children:
+- Name: RespCPUAvail
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"响应MSG的可用CPU"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CommUse/RespCPUAvail"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: RespCPUAct
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"响应MSG使用的CPU"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/CommUse/RespCPUAct"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

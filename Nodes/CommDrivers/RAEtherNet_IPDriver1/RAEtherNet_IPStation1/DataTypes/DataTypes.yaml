@@ -1,0 +1,929 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_TaskUse
+  Id: g=34dffe7d10c2611d113094707ef7af7a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_TaskUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "34dffe7d10c2611d113094707ef7af7a",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Motion",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "System",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Unused",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "User",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_TaskUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_CoreUse
+  Id: g=67d326ace25123729f8a68e8261c6fb0
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_CoreUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "67d326ace25123729f8a68e8261c6fb0",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Core0Pct",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core0Type",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core1Pct",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core1Type",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core2Pct",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core2Type",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core3Pct",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Core3Type",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_CoreUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
+  Id: g=523b0bd329de83fd76b66f0e327c5751
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_ConnUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "523b0bd329de83fd76b66f0e327c5751",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "ConsAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConsCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConsHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IncomCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IncomHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MSGCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MSGHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UCBsAllow",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UCBsCurr",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UCBsHiWater",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_ConnUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_Identity
+  Id: g=c240d1d0a2cc849c8f6accc47eee8720
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_Identity",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c240d1d0a2cc849c8f6accc47eee8720",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Major",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Minor",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [33]
+     },{
+      "Name": "ProductCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProductType",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Serial",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "VendorID",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_Identity"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_TrendUse
+  Id: g=65edc73e45b2847fc00b71b6da1ac467
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_TrendUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "65edc73e45b2847fc00b71b6da1ac467",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "MaxTrendInstance",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "NumTrendInstances",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TrendHighWater",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_TrendUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_Out
+  Id: g=db6a6a2314687eab6e1d08190cf6d3a2
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_Out",
+    "DataType": {
+     "IdType": 2,
+     "Id": "db6a6a2314687eab6e1d08190cf6d3a2",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "ConnUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "523b0bd329de83fd76b66f0e327c5751",
+       "Namespace": 24
+      }
+     },{
+      "Name": "CoreUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "67d326ace25123729f8a68e8261c6fb0",
+       "Namespace": 24
+      }
+     },{
+      "Name": "CtrlUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "34dffe7d10c2611d113094707ef7af7a",
+       "Namespace": 24
+      }
+     },{
+      "Name": "ForceStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Identity",
+      "DataType": {
+       "IdType": 2,
+       "Id": "c240d1d0a2cc849c8f6accc47eee8720",
+       "Namespace": 24
+      }
+     },{
+      "Name": "IOLEDStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MinorFaultBatt",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultCount",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinorFaultPort",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultProg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultTask",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrendUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "65edc73e45b2847fc00b71b6da1ac467",
+       "Namespace": 24
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_Out"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_CPUUse
+  Id: g=6ad4234eeb7fd74528ced55ca2908988
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_CPUUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6ad4234eeb7fd74528ced55ca2908988",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Comms",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ContinuousOrFree",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Messaging",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Motion",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PeriodicAndEvent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Redundancy",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Safety",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "System",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_CPUUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_MemUse
+  Id: g=724fa99183c2e40d27311dcf47d8b688
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_MemUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "724fa99183c2e40d27311dcf47d8b688",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "FreeDataLogic",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FreeGen",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FreeIO",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FreeSafety",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxBlockDataLogic",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxBlockGen",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxBlockIO",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxBlockSafety",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinDataLogic",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinGen",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinIO",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinSafety",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalDataLogic",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalGen",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalIO",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalSafety",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_MemUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_CommUse
+  Id: g=deb740d0c2050d842f35acc69045cdd6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_CommUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "deb740d0c2050d842f35acc69045cdd6",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "MaxTrendInstance",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "NumTrendInstances",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "RespCPUAct",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "RespCPUAvail",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrendHighWater",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_CommUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_Identity
+  Id: g=9538f65f0c68ea20f215cba8bf49cbc6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_Identity",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9538f65f0c68ea20f215cba8bf49cbc6",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Major",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Minor",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [33]
+     },{
+      "Name": "ProductCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProductType",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Serial",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "VendorID",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_Identity"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_Out
+  Id: g=7669ed651f88928d621f8d911346fa3a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_Out",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7669ed651f88928d621f8d911346fa3a",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "CommUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "deb740d0c2050d842f35acc69045cdd6",
+       "Namespace": 24
+      }
+     },{
+      "Name": "ConnUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "278086a589f698795b8694ac3837a195",
+       "Namespace": 24
+      }
+     },{
+      "Name": "CPUUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "6ad4234eeb7fd74528ced55ca2908988",
+       "Namespace": 24
+      }
+     },{
+      "Name": "ForceStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Identity",
+      "DataType": {
+       "IdType": 2,
+       "Id": "9538f65f0c68ea20f215cba8bf49cbc6",
+       "Namespace": 24
+      }
+     },{
+      "Name": "IOLEDStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MemUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "724fa99183c2e40d27311dcf47d8b688",
+       "Namespace": 24
+      }
+     },{
+      "Name": "MinorFaultBatt",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultCount",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinorFaultPort",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultProg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MinorFaultTask",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimeSlice",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_Out"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_ConnUse
+  Id: g=278086a589f698795b8694ac3837a195
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_ConnUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "278086a589f698795b8694ac3837a195",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "ConsAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConsCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConsHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IncomCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IncomHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "IOHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MCacheHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MSGCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MSGHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProdHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalAllow",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalCurr",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalHiWater",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UCBsAllow",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UCBsCurr",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UCBsHiWater",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_ConnUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

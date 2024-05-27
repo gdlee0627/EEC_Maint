@@ -1,0 +1,33 @@
+Name: Core0
+Id: g=febc33c17cde44066fc9e3595ca12765
+Type: FolderType
+Children:
+- Name: CPU利用率
+  Id: g=6d087d1996cd79875d78bbd5d1f6c499
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 30
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/raP_Dvc_LgxCPU_Out/CoreUse/Core0Pct"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: CPU空闲
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 70
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Core0Idle"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

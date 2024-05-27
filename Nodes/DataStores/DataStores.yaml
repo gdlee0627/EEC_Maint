@@ -1,0 +1,599 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=197d056fa18c6363ad15a76f67ce9023
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Controller
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: Communication
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: AI
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: AO
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: DI
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: DO
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: Others
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ID
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Catalog
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Status
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: RepairTable
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Class
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Object
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Methods
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Done
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: StartTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: StopTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Owner
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: MtnTable
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Class
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Object
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Descriptions
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Procedures
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: StartTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: StopTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Owner
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: FaultStoreTable
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Type
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: Code
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: LastTimeStamping
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+    - Name: MajorFaults
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: FaultType
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: FaultCode
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: RSLogix5000_Display_Text
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Fault
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: CorrectiveAction
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: FaultTypeName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: MinorFaults
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: FaultType
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: FaultCode
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: RSLogix5000_Display_Text
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Fault
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: CorrectiveAction
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: FaultTypeName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: IOFaults
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: FaultCode
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: RSLogix5000_Display_Text
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Fault
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: CorrectiveAction
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: SafetyFaults
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: FaultType
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: FaultCode
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: RSLogix5000_Display_Text
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Fault
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: CorrectiveAction
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: FaultTypeName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+  - Class: Reference
+    Target: ns=17;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=7;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LifeCycle"

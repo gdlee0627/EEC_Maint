@@ -1,0 +1,64 @@
+Name: MemoryUse
+Id: g=d321590be002179ee9980820a020504a
+Type: FolderType
+Children:
+- Name: FreeIO
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"IO空闲"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/MemUse/FreeIO"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: FreeDataLogic
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"数据逻辑空闲"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/MemUse/FreeDataLogic"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: FreeGeneral
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"通用空闲"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/MemUse/FreeGen"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: FreeSafety
+  Type: BaseDataVariableType
+  DataType: Float
+  DisplayName: {"LocaleId":"en-US","Text":"功能安全空闲"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/L_CPU_Out/MemUse/FreeSafety"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

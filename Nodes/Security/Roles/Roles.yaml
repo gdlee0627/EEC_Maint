@@ -1,0 +1,13 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: Administrators
+  Id: g=b6c90d9a4c2784009e724cb2084e2c1e
+  Type: ns=1;RoleType
+- Name: Operators
+  Id: g=6732eb321b320b87b7568516dbfb9c26
+  Type: ns=1;RoleType
+- Name: Guests
+  Id: g=684844dc28287b550da1508856b6c24d
+  Type: ns=1;RoleType
