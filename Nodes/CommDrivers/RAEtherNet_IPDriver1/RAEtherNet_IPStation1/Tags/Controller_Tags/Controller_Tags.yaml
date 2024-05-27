@@ -1,15 +1,15 @@
 Name: Controller Tags
 Type: FolderType
 Children:
-- Name: CataLog_Number
+- Name: MajorFaultBit
   Type: RAEtherNetIPTag
-  DataType: String
-  Value: ""
+  DataType: Boolean
+  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "CataLog_Number"
+    Value: "MajorFaultBit"
 - Name: ControllerName
   Type: RAEtherNetIPTag
   DataType: String
@@ -19,6 +19,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "ControllerName"
+- Name: CataLog_Number
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "CataLog_Number"
 - Name: is_L7x
   Type: RAEtherNetIPTag
   DataType: Boolean
