@@ -109,6 +109,125 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: ns=24;DateTime
+  Id: g=f0ae54d3203066fab75b86408db672ea
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DateTime",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f0ae54d3203066fab75b86408db672ea",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Da",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Hr",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Min",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Mo",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sec",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "uSec",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Yr",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DateTime"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raP_UDT_Dvc_LgxCPU_5x80_Identity
+  Id: g=c240d1d0a2cc849c8f6accc47eee8720
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raP_UDT_Dvc_LgxCPU_5x80_Identity",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c240d1d0a2cc849c8f6accc47eee8720",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Major",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Minor",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [33]
+     },{
+      "Name": "ProductCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ProductType",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Serial",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "VendorID",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_Identity"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
   Id: g=523b0bd329de83fd76b66f0e327c5751
   Supertype: Structure
@@ -240,62 +359,47 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: raP_UDT_Dvc_LgxCPU_5x80_Identity
-  Id: g=c240d1d0a2cc849c8f6accc47eee8720
+  Name: FaultRecord
+  Id: g=0adaa5baf93d581ad0ea4c7a06acac1c
   Supertype: Structure
   StructDefinition: 
    {
-    "Name": "raP_UDT_Dvc_LgxCPU_5x80_Identity",
+    "Name": "FaultRecord",
     "DataType": {
      "IdType": 2,
-     "Id": "c240d1d0a2cc849c8f6accc47eee8720",
+     "Id": "0adaa5baf93d581ad0ea4c7a06acac1c",
      "Namespace": 24
     },
     "Fields": [{
-      "Name": "Major",
+      "Name": "Code",
       "DataType": {
-       "Id": 2
+       "Id": 4
       }
      },{
-      "Name": "Minor",
+      "Name": "Info",
       "DataType": {
-       "Id": 2
-      }
-     },{
-      "Name": "Name",
-      "DataType": {
-       "Id": 2
+       "Id": 6
       },
       "ValueRank": "OneDimension",
-      "ArrayDimensions": [33]
+      "ArrayDimensions": [8]
      },{
-      "Name": "ProductCode",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ProductType",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Serial",
+      "Name": "Time_High",
       "DataType": {
        "Id": 6
       }
      },{
-      "Name": "Status",
+      "Name": "Time_Low",
       "DataType": {
-       "Id": 4
+       "Id": 6
       }
      },{
-      "Name": "VendorID",
+      "Name": "Type",
       "DataType": {
        "Id": 4
       }
      }]
    }
-  DisplayName: {"LocaleId":"","Text":"raP_UDT_Dvc_LgxCPU_5x80_Identity"}
+  DisplayName: {"LocaleId":"","Text":"FaultRecord"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

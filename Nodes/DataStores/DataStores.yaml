@@ -286,11 +286,11 @@ Children:
           Value: ""
         - Name: StartTime
           Type: StoreColumn
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: StopTime
           Type: StoreColumn
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Owner
           Type: StoreColumn
@@ -332,11 +332,11 @@ Children:
           Value: ""
         - Name: StartTime
           Type: StoreColumn
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: StopTime
           Type: StoreColumn
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Owner
           Type: StoreColumn
@@ -370,7 +370,7 @@ Children:
           Value: 0
         - Name: LastTimeStamping
           Type: StoreColumn
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
     - Name: MajorFaults
       Type: SQLiteStoreTable

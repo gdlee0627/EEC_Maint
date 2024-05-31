@@ -482,7 +482,7 @@ Children:
         Children:
         - Name: Value
           Type: BaseDataVariableType
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "2023-12-03T18:03:00.0000000"
         - Name: LeftMargin
           Type: BaseVariableType
@@ -657,7 +657,7 @@ Children:
         Children:
         - Name: Value
           Type: BaseDataVariableType
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "2023-12-03T18:05:00.0000000"
         - Name: LeftMargin
           Type: BaseVariableType
@@ -1341,7 +1341,7 @@ Children:
         Children:
         - Name: Value
           Type: BaseDataVariableType
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "2023-12-03T00:00:00.0000000"
         - Name: LeftMargin
           Type: BaseVariableType
@@ -1454,7 +1454,7 @@ Children:
         Children:
         - Name: Value
           Type: BaseDataVariableType
-          DataType: DateTime
+          DataType: ns=0;DateTime
           Value: "2023-12-05T23:00:00.0000000"
         - Name: LeftMargin
           Type: BaseVariableType

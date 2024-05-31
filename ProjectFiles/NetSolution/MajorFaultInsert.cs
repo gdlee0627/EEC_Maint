@@ -35,7 +35,8 @@ public class MajorFaultInsert : BaseNetLogic
 
     public override void Start()
     {
-        synchronizer = new RemoteVariableSynchronizer(TimeSpan.FromMilliseconds(2000));
+        Log.Info("MajorFaultBit");
+        synchronizer = new RemoteVariableSynchronizer();//TimeSpan.FromMilliseconds(2000)
         synchronizer.Add(variable1);
         synchronizer.Add(Type);
         synchronizer.Add(Code);
@@ -57,6 +58,7 @@ public class MajorFaultInsert : BaseNetLogic
         if ((bool)variable1.Value)
         {    
                    
+            Log.Info("MajorFaultBit");
             DateTime TimeStamp = new DateTime(Year.Value,Month.Value,Day.Value,Hour.Value,Minute.Value,Second.Value);
 
             var store = Project.Current.GetObject("DataStores"); ;
@@ -82,10 +84,10 @@ public class MajorFaultInsert : BaseNetLogic
 
     public override void Stop()
     {
-        synchronizer.Dispose();
+        // synchronizer.Dispose();
 
-        IUAVariable variable1 = Project.Current.GetVariable("CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/MajorFaultBit");
-        variable1.VariableChange -= Variable1_VariableChange;
+        // IUAVariable variable1 = Project.Current.GetVariable("CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/MajorFaultBit");
+        // variable1.VariableChange -= Variable1_VariableChange;
     }
 
     RemoteVariableSynchronizer synchronizer;

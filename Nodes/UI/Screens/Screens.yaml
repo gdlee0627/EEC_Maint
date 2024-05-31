@@ -1374,7 +1374,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"控制器多核信息"}
+          Value: {"LocaleId":"en-US","Text":"多核控制器信息"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -1399,7 +1399,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"其他信息"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

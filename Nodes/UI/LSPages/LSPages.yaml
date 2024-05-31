@@ -160,6 +160,25 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -325,6 +344,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -705,6 +734,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -875,6 +913,16 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#e4e4e4"
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -1255,6 +1303,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -1420,6 +1477,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -1631,6 +1698,11 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 20.0
+      - Name: AutoRefreshTime
+        Type: BaseDataVariableType
+        DataType: Duration
+        ModellingRule: Optional
+        Value: "0:00:00:2.0000000"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1800,6 +1872,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -1965,6 +2046,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -2345,6 +2436,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -2510,6 +2610,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -2900,6 +3010,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -3065,6 +3184,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -3445,6 +3574,15 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/Groups/Admins"
     - Name: Check
       Type: Button
       Children:
@@ -3610,6 +3748,16 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
     - Name: DataGrid1
       Type: DataGrid
       Children:
@@ -3738,6 +3886,23 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Status"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#000000"
+              Children:
+              - Name: LifeCycleConverter1
+                Type: LifeCycleConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Item}/Status"
       - Name: SelectedItem
         Type: NodePointer
         DataType: NodeId

@@ -3,3 +3,5 @@ Type: ModelCategoryFolder
 Children:
 - File: L8Infos/L8Infos.yaml
 - File: L7Infos/L7Infos.yaml
+- Name: RuntimeNetLogic1
+  Type: NetLogic

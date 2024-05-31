@@ -10,6 +10,57 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MajorFaultBit"
+- Name: storefault
+  Type: FaultRecord
+  DataType: FaultRecord
+  Children:
+  - Name: Code
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "storefault.Code"
+  - Name: Info
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Value: [0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "storefault.Info"
+  - Name: Time_High
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "storefault.Time_High"
+  - Name: Time_Low
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "storefault.Time_Low"
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "storefault.Type"
 - Name: ControllerName
   Type: RAEtherNetIPTag
   DataType: String
@@ -1231,3 +1282,70 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Core3Idle"
+- Name: MajorFaultTimeStamp_Last
+  Type: DateTime
+  DataType: ns=24;DateTime
+  Children:
+  - Name: Da
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Da"
+  - Name: Hr
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Hr"
+  - Name: Min
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Min"
+  - Name: Mo
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Mo"
+  - Name: Sec
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Sec"
+  - Name: uSec
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.uSec"
+  - Name: Yr
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MajorFaultTimeStamp_Last.Yr"

@@ -47,10 +47,12 @@ public class InsertDO : BaseNetLogic
                 var values = new Object[rowCount, 4];
                 var internalDatabase = store.Children.Get<FTOptix.Store.Store>("EmbeddedDatabase1");
                 var table = internalDatabase.Tables.Get<FTOptix.Store.Table>("DO");
+
                 // If first row is table head, i starts from 1
                 for (int i = 0; i < rowCount; i++)
                 {
                 
+                    
                     IRow curRow = sheet.GetRow(i);
                     // Works for consecutive data. Use continue otherwise 
                     if (curRow == null)
@@ -59,16 +61,23 @@ public class InsertDO : BaseNetLogic
                         rowCount = i - 1;
                         break;
                     }
+                    
                     // Get data from all columns
                     var ID = curRow.GetCell(0).NumericCellValue;
+                    
                     var Catalog = curRow.GetCell(1).StringCellValue.Trim();
+                    
                     var Descriptions = curRow.GetCell(2).StringCellValue.Trim();
+                    
                     var status = curRow.GetCell(3).StringCellValue.Trim();
+                    
+                    
 
                     values[i, 0] = ID;
                     values[i, 1] = Catalog;
                     values[i, 2] = Descriptions;
                     values[i, 3] = status;
+                    
                 }
                 table.Insert(columnName, values);
             }

@@ -130,8 +130,157 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Core3Type"
+- Name: DateTime
+  Id: g=e3baa66f10cfaa34ff3d5769f9e864fd
+  Supertype: TagStructure
+  DataType: ns=24;DateTime
+  ValueRank: Any
+  Children:
+  - Name: Da
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Da"
+  - Name: Hr
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Hr"
+  - Name: Min
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Min"
+  - Name: Mo
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mo"
+  - Name: Sec
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sec"
+  - Name: uSec
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "uSec"
+  - Name: Yr
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Yr"
+- Name: raP_UDT_Dvc_LgxCPU_5x80_Identity
+  Id: g=d9bb1e25cf20cb30f2e64cf5891e6ead
+  Supertype: TagStructure
+  DataType: raP_UDT_Dvc_LgxCPU_5x80_Identity
+  ValueRank: Any
+  Children:
+  - Name: Major
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Major"
+  - Name: Minor
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Minor"
+  - Name: Name
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [33]
+    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Name"
+  - Name: ProductCode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProductCode"
+  - Name: ProductType
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProductType"
+  - Name: Serial
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Serial"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"
+  - Name: VendorID
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VendorID"
 - Name: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
-  Id: g=c1c41a7bf601f9b90b9f53717757617c
+  Id: g=7897aec985a696b3cdde4c498d50e882
   Supertype: TagStructure
   DataType: raP_UDT_Dvc_LgxCPU_5x80_ConnUse
   ValueRank: Any
@@ -334,60 +483,33 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "UCBsHiWater"
-- Name: raP_UDT_Dvc_LgxCPU_5x80_Identity
-  Id: g=d9bb1e25cf20cb30f2e64cf5891e6ead
+- Name: FaultRecord
+  Id: g=5315235ed62706e50c764cd64050c70e
   Supertype: TagStructure
-  DataType: raP_UDT_Dvc_LgxCPU_5x80_Identity
+  DataType: FaultRecord
   ValueRank: Any
   Children:
-  - Name: Major
+  - Name: Code
     Type: RAEtherNetIPTag
-    DataType: SByte
+    DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Major"
-  - Name: Minor
+      Value: "Code"
+  - Name: Info
     Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Minor"
-  - Name: Name
-    Type: RAEtherNetIPTag
-    DataType: SByte
+    DataType: Int32
     ValueRank: OneDimension
-    ArrayDimensions: [33]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    ArrayDimensions: [8]
+    Value: [0,0,0,0,0,0,0,0]
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Name"
-  - Name: ProductCode
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ProductCode"
-  - Name: ProductType
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ProductType"
-  - Name: Serial
+      Value: "Info"
+  - Name: Time_High
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -395,8 +517,17 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Serial"
-  - Name: Status
+      Value: "Time_High"
+  - Name: Time_Low
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Time_Low"
+  - Name: Type
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -404,16 +535,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Status"
-  - Name: VendorID
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "VendorID"
+      Value: "Type"
 - Name: raP_UDT_Dvc_LgxCPU_5x80_TrendUse
   Id: g=1f15074a24c4d86115ae6a391603b340
   Supertype: TagStructure
